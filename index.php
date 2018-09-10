@@ -41,7 +41,7 @@ in html
         <main>
             
             <figure id="me">
-                <img src="/labs/lab1/about.php" alt="Picture of Michael Velasquez" />
+                <img src="/labs/lab1/michael.jpg" alt="Picture of Michael Velasquez" />
                 
             </figure>
             
