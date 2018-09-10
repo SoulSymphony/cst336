@@ -29,17 +29,20 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-            <a href="/cst336/labs/lab1/index.php"><b>Home</b></a>
-            <a href="/cst336/labs/lab1/about.php">About</a>
-            <a href="/cst336/labs/lab1/contact.php">Contact</a>
+            <a href="index.php"><b>Home</b></a>
+            <a href="about.php">About</a>
+            <a href="contact.php">Contact</a>
         </nav>
+        
+        
         
         <br /><br />
         
         <main>
             
             <figure id="me">
-                <img src="/cst336/labs/lab1/img/michael.jpg" alt="Picture of Michael Velasquez" />
+                <img src="img/michael.jpg" alt="Picture of Michael Velasquez" />
+                
             </figure>
             
             <div id="welcomeText">

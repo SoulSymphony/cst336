@@ -1,0 +1,4 @@
+[10-Sep-2018 21:31:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 21
+[10-Sep-2018 21:32:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 21
+[10-Sep-2018 22:00:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 37
+[10-Sep-2018 22:12:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 71
