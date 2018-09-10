@@ -29,7 +29,7 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-            <a href="index.php"><b>Home</b></a>
+            <a href="/index.php"><b>Home</b></a>
             <a href="about.php">About</a>
             <a href="contact.php">Contact</a>
         </nav>
@@ -72,7 +72,7 @@ in html
             
             
             <figure>
-            <img src="/cst336/labs/lab1/img/csu.jpg" alt="Picture of csumb logo" />
+            <img src="/labs/lab1/img/csu.jpg" alt="Picture of csumb logo" />
             </figure>
             
         </footer>
