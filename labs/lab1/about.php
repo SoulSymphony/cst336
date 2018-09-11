@@ -88,7 +88,7 @@ in html
             
             
             <figure>
-            <img src="/cst336/labs/lab1/img/csu.jpg" alt="Picture of csumb logo" />
+            <img src="img/csu.jpg" alt="Picture of csumb logo" />
             </figure>
             
         </footer>
