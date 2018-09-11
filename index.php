@@ -17,7 +17,7 @@ in html
         
         
        
-       <link href="/cst336/labs/lab1/css/styles.css" rel="stylesheet" type="text/css" />
+       <link href="labs/lab1/css/styles.css" rel="stylesheet" type="text/css" />
     </head>
 <!-- closing head -->
 
