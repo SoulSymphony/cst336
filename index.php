@@ -30,8 +30,8 @@ in html
         <nav>
             <hr width="50%" />
             <a href="/index.php"><b>Home</b></a>
-            <a href="/about.php">About</a>
-            <a href="/contact.php">Contact</a>
+            <a href="/labs/lab1/about.php">About</a>
+            <a href="/labs/lab1/contact.php">Contact</a>
         </nav>
         
         
