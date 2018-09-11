@@ -23,7 +23,7 @@ in html
 
     <!-- This is the body -->
     <!-- This is where we place the content of our website -->
-    <body>
+    <body BGCOLOR="BLACK">
         <header>
             <h1> Michael Velasquez</h1>
         </header>
