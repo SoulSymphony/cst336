@@ -29,9 +29,9 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-            <a href="/cst336/labs/lab1/index.php">Home</a>
-            <a href="/cst336/labs/lab1/about.php"><b>About</b></a>
-            <a href="/cst336/labs/lab1/contact.php">Contact</a>
+            <a href="/index.php">Home</a>
+            <a href="/about.php"><b>About</b></a>
+            <a href="/contact.php">Contact</a>
         </nav>
         
         <br /><br />
