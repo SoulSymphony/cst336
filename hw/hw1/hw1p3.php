@@ -29,7 +29,7 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-           <a href="/h1p1.php"><b>I.O.T.</b></a>
+            <a href="/hw/hw1/h1p1.php"><b>I.O.T.</b></a>
             <a href="/hw/hw1/h1p2.php">Cars</a>
             <a href="/hw/hw1/hw1p3.php">Pet Feeder</a>
             <a href="/hw/hw1/hw1p4.php">Key</a>
