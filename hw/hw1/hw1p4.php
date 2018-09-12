@@ -25,7 +25,7 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
         <header>
-             <MARQUEE <h1>  bgcolor="white" loop="-6" scrollamount="25" width="100%">Internet of Things</h1></MARQUEE>
+             <h1> <MARQUEE bgcolor="white" loop="-6" scrollamount="25" width="100%">Internet of Things</MARQUEE></h1>
         </header>
         <nav>
             <hr width="50%" />
