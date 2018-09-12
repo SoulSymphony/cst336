@@ -12,7 +12,7 @@ in html
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
     <head>
-        <meta char=”utf-8” />
+        <meta charset="utf-8" />
         <title> Michael Velasquez: HW 1</title>
         
         
@@ -25,7 +25,7 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
         <header>
-             <h1> <MARQUEE bgcolor="white" loop="-6" scrollamount="25" width="100%">Internet of Things</MARQUEE></h1>
+             <MARQUEE <h1>  bgcolor="white" loop="-6" scrollamount="25" width="100%">Internet of Things</h1></MARQUEE>
         </header>
         <nav>
             <hr width="50%" />
