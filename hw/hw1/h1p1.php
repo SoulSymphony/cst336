@@ -17,7 +17,7 @@ in html
         
         
        
-       <link href="/cst336/hw/hw1/styles.css" rel="stylesheet" type="text/css" />
+       <link href="hw/hw1/styles.css" rel="stylesheet" type="text/css" />
     </head>
 <!-- closing head -->
 
@@ -30,10 +30,10 @@ in html
         </header>
         <nav>
             <hr width="50%" />
-            <a href="/cst336/hw/hw1/h1p1.php"><b>I.O.T.</b></a>
-            <a href="/cst336/hw/hw1/h1p2.php">Cars</a>
-            <a href="/cst336/hw/hw1/hw1p3.php">Pet Feeder</a>
-            <a href="/cst336/hw/hw1/hw1p4.php">Key</a>
+            <a href="/h1p1.php"><b>I.O.T.</b></a>
+            <a href="/hw/hw1/h1p2.php">Cars</a>
+            <a href="/hw/hw1/hw1p3.php">Pet Feeder</a>
+            <a href="/hw/hw1/hw1p4.php">Key</a>
         </nav>
         
         
