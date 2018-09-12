@@ -43,7 +43,7 @@ in html
         <main>
             
             <figure id="me">
-                <img src="/cst336/hw/hw1/img/hw1i1.png" alt="Picture of internet of things" />
+                <img src="img/hw1i1.png" alt="Picture of internet of things" />
                 
             </figure>
             

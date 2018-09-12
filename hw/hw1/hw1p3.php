@@ -17,7 +17,7 @@ in html
         
         
        
-       <link href="/cst336/hw/hw1/styles.css" rel="stylesheet" type="text/css" />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
     </head>
 <!-- closing head -->
 
@@ -42,7 +42,7 @@ in html
         <main>
             
             <figure id="me">
-                <img src="/cst336/hw/hw1/img/hw1i3.jpg" alt="Picture of internet of things" />
+                <img src="img/hw1i3.jpg" alt="Picture of internet of things" />
                 
             </figure>
             
