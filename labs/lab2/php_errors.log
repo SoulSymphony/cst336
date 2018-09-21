@@ -2,3 +2,10 @@
 [10-Sep-2018 21:32:02 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 21
 [10-Sep-2018 22:00:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 37
 [10-Sep-2018 22:12:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/labs/lab2/777/index.php on line 71
+[12-Sep-2018 21:48:10 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 29
+[12-Sep-2018 22:10:25 UTC] PHP Parse error:  syntax error, unexpected '");"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 42
+[12-Sep-2018 22:10:27 UTC] PHP Parse error:  syntax error, unexpected '");"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 42
+[12-Sep-2018 22:18:28 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 71
+[12-Sep-2018 22:18:29 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 71
+[12-Sep-2018 22:19:18 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 18
+[12-Sep-2018 22:28:38 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/review/randomColor.php on line 18
