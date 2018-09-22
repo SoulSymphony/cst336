@@ -46,6 +46,7 @@
             
             <figure>
             <img src="/labs/lab1/img/csu.jpg" alt="Picture of csumb logo" />
+            <img src="img/bb.png" alt="Picture of csumb logo" />
             </figure>
             
         </footer>
