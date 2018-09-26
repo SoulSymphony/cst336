@@ -1,0 +1,220 @@
+[25-Sep-2018 19:57:33 UTC] PHP Fatal error:  Call to undefined function ballCup() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 35
+[25-Sep-2018 19:57:33 UTC] PHP Stack trace:
+[25-Sep-2018 19:57:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 19:59:01 UTC] PHP Warning:  rand() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 19:59:01 UTC] PHP Stack trace:
+[25-Sep-2018 19:59:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 19:59:01 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 19:59:01 UTC] PHP   3. rand() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:28:20 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 26
+[25-Sep-2018 20:28:20 UTC] PHP Stack trace:
+[25-Sep-2018 20:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:28:20 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:28:20 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:28:20 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:26
+[25-Sep-2018 20:28:20 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 26
+[25-Sep-2018 20:28:20 UTC] PHP Stack trace:
+[25-Sep-2018 20:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:28:20 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:28:20 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:28:20 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:26
+[25-Sep-2018 20:28:20 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 31
+[25-Sep-2018 20:28:20 UTC] PHP Stack trace:
+[25-Sep-2018 20:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:28:20 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:28:20 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:28:20 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:31
+[25-Sep-2018 20:28:20 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 26
+[25-Sep-2018 20:28:20 UTC] PHP Stack trace:
+[25-Sep-2018 20:28:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:28:20 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:28:20 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:28:20 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:26
+[25-Sep-2018 20:29:42 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 26
+[25-Sep-2018 20:29:42 UTC] PHP Stack trace:
+[25-Sep-2018 20:29:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:29:42 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:29:42 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:29:42 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:26
+[25-Sep-2018 20:29:42 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 26
+[25-Sep-2018 20:29:42 UTC] PHP Stack trace:
+[25-Sep-2018 20:29:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:29:42 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:29:42 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:29:42 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:26
+[25-Sep-2018 20:29:42 UTC] PHP Warning:  ucfirst() expects parameter 1 to be string, array given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 26
+[25-Sep-2018 20:29:42 UTC] PHP Stack trace:
+[25-Sep-2018 20:29:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:29:42 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:69
+[25-Sep-2018 20:29:42 UTC] PHP   3. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:8
+[25-Sep-2018 20:29:42 UTC] PHP   4. ucfirst() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:26
+[25-Sep-2018 20:42:19 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:19 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:19 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:19 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:19 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:22 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:22 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:22 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:22 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:22 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:25 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:25 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:25 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:25 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:25 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:28 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:28 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:28 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:28 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:28 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:34 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:34 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:34 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:34 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:34 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:37 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:37 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:37 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:37 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:37 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:40 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:40 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:40 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:40 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:40 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:42:43 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:42:43 UTC] PHP Stack trace:
+[25-Sep-2018 20:42:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:42:43 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:42:43 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:42:43 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:45:35 UTC] PHP Fatal error:  [] operator not supported for strings in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:45:35 UTC] PHP Stack trace:
+[25-Sep-2018 20:45:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:45:35 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:45:35 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:46:15 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:46:15 UTC] PHP Stack trace:
+[25-Sep-2018 20:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:46:15 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:46:15 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:46:15 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:46:18 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:46:18 UTC] PHP Stack trace:
+[25-Sep-2018 20:46:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:46:18 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:46:18 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:46:18 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:46:21 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:46:21 UTC] PHP Stack trace:
+[25-Sep-2018 20:46:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:46:21 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:46:21 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:46:21 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[25-Sep-2018 20:46:24 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[25-Sep-2018 20:46:24 UTC] PHP Stack trace:
+[25-Sep-2018 20:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[25-Sep-2018 20:46:24 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:77
+[25-Sep-2018 20:46:24 UTC] PHP   3. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:40
+[25-Sep-2018 20:46:24 UTC] PHP   4. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[26-Sep-2018 00:52:54 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 00:53:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 00:53:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 00:53:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 00:53:34 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 00:56:28 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 01:25:01 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 24
+[26-Sep-2018 01:25:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 24
+[26-Sep-2018 17:53:06 UTC] PHP Parse error:  syntax error, unexpected '$', expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 19
+[26-Sep-2018 18:07:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 54
+[26-Sep-2018 18:08:15 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 6
+[26-Sep-2018 18:08:15 UTC] PHP Stack trace:
+[26-Sep-2018 18:08:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:08:15 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:52
+[26-Sep-2018 18:08:15 UTC] PHP   3. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:6
+[26-Sep-2018 18:18:33 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw2/h2p2.php on line 22
+[26-Sep-2018 18:18:33 UTC] PHP Stack trace:
+[26-Sep-2018 18:18:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p2.php:0
+[26-Sep-2018 18:18:33 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p2.php:95
+[26-Sep-2018 18:19:44 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 18:19:44 UTC] PHP Stack trace:
+[26-Sep-2018 18:19:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:19:44 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:95
+[26-Sep-2018 18:26:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 25
+[26-Sep-2018 18:26:17 UTC] PHP Stack trace:
+[26-Sep-2018 18:26:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:26:17 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:95
+[26-Sep-2018 18:44:19 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 18:44:19 UTC] PHP Stack trace:
+[26-Sep-2018 18:44:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:44:19 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:147
+[26-Sep-2018 18:45:47 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 18:45:47 UTC] PHP Stack trace:
+[26-Sep-2018 18:45:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:45:47 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:147
+[26-Sep-2018 18:46:46 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 18:46:46 UTC] PHP Stack trace:
+[26-Sep-2018 18:46:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:46:46 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:146
+[26-Sep-2018 18:46:55 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 22
+[26-Sep-2018 18:46:55 UTC] PHP Stack trace:
+[26-Sep-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 18:46:55 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:146
+[26-Sep-2018 19:16:01 UTC] PHP Warning:  Missing argument 1 for ballCup(), called in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 117 and defined in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 3
+[26-Sep-2018 19:16:01 UTC] PHP Stack trace:
+[26-Sep-2018 19:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:16:01 UTC] PHP   2. ballCup() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:117
+[26-Sep-2018 19:22:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 231
+[26-Sep-2018 19:34:41 UTC] PHP Fatal error:  Call to undefined function creator() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 166
+[26-Sep-2018 19:34:41 UTC] PHP Stack trace:
+[26-Sep-2018 19:34:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:40:06 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 27
+[26-Sep-2018 19:40:06 UTC] PHP Stack trace:
+[26-Sep-2018 19:40:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:40:06 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:176
+[26-Sep-2018 19:40:06 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:27
+[26-Sep-2018 19:40:06 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 31
+[26-Sep-2018 19:40:06 UTC] PHP Stack trace:
+[26-Sep-2018 19:40:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:40:06 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:176
+[26-Sep-2018 19:40:06 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:31
+[26-Sep-2018 19:40:06 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 34
+[26-Sep-2018 19:40:06 UTC] PHP Stack trace:
+[26-Sep-2018 19:40:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:40:06 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:176
+[26-Sep-2018 19:40:06 UTC] PHP   3. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:34
+[26-Sep-2018 19:47:14 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 27
+[26-Sep-2018 19:47:14 UTC] PHP Stack trace:
+[26-Sep-2018 19:47:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:47:14 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:176
+[26-Sep-2018 19:47:14 UTC] PHP   3. array_pop() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:27
+[26-Sep-2018 19:47:14 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 31
+[26-Sep-2018 19:47:14 UTC] PHP Stack trace:
+[26-Sep-2018 19:47:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:47:14 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:176
+[26-Sep-2018 19:47:14 UTC] PHP   3. array_push() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:31
+[26-Sep-2018 19:47:14 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 34
+[26-Sep-2018 19:47:14 UTC] PHP Stack trace:
+[26-Sep-2018 19:47:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 19:47:14 UTC] PHP   2. displayCups() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:176
+[26-Sep-2018 19:47:14 UTC] PHP   3. shuffle() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:34
+[26-Sep-2018 20:08:36 UTC] PHP Fatal error:  Call to undefined function dif() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 187
+[26-Sep-2018 20:08:36 UTC] PHP Stack trace:
+[26-Sep-2018 20:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 20:09:47 UTC] PHP Fatal error:  Call to undefined function dif() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 187
+[26-Sep-2018 20:09:47 UTC] PHP Stack trace:
+[26-Sep-2018 20:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 20:09:49 UTC] PHP Fatal error:  Call to undefined function dif() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 187
+[26-Sep-2018 20:09:49 UTC] PHP Stack trace:
+[26-Sep-2018 20:09:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
+[26-Sep-2018 20:10:50 UTC] PHP Fatal error:  Call to undefined function dif() in /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php on line 187
+[26-Sep-2018 20:10:50 UTC] PHP Stack trace:
+[26-Sep-2018 20:10:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/h2p1.php:0
