@@ -164,12 +164,12 @@ for($i=0;$i<4;$i++)
                  if($containerr[$i]==0)
                  {
                      $tpic="rc1";
-                      echo "<img src='/hw/hw2/img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
+                      echo "<img src='img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
                  }
                  else if($containerr[$i]==1)
                  {
                      $tpic="mys";
-                      echo "<img src='/hw/hw2/img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
+                      echo "<img src='img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
                  }
                  
                  
