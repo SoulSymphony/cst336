@@ -46,17 +46,17 @@ for($i=0;$i<4;$i++)
       if($inn[$i]==0)
                  {
                      $tpic="rc1";
-                      echo "<img src='/cst336/hw/hw2/img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
+                      echo "<img src='img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
                  }
                  else if($inn[$i]==1)
                  {
                      $tpic="mys";
-                      echo "<img src='/cst336/hw/hw2/img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
+                      echo "<img src='img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
                  }
                  
                  else{
                      $tpic="blueb";
-                     echo "<img src='/cst336/hw/hw2/img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
+                     echo "<img src='img/$tpic.jpg' title='".ucfirst("cup")."'width='300' />";
                  }
                  
 }
@@ -160,7 +160,7 @@ for($i=0;$i<4;$i++)
                 
                 
                 
-                 
+                //  /cst336/hw/hw2/img/blueb.jpg
                  if($containerr[$i]==0)
                  {
                      $tpic="rc1";
@@ -197,7 +197,7 @@ for($i=0;$i<4;$i++)
   
  
  if (!empty($_GET['act'])) {
-    displayCups($containerr, 2);
+    displayCups($containerr, 0);
     
     
  }
