@@ -57,19 +57,16 @@
         //so a 4 of Hearts at index 3 would be represented as
         //$suits[3] = "heart", $values[3] = "4".
     }
-
-
     function displayHand($player){
         
         
-        echo "<img src='/silverjack/img/$player->picture.png' title='".ucfirst("person")."'/>";
+        echo "<img src='img/$player->picture.png' title='".ucfirst("person")."'/>";
         
         
         
         
         //   $nf1=array("hearts", "diamonds", "spades");
 //     $nf2=array(5, 8, 1);
-
     
     
     // $cardss=sizeof($nf1);
@@ -95,12 +92,10 @@
     
     
     
-
     
     
     $counter=0;
     $adder=0;
-
     
     
     
@@ -142,10 +137,9 @@
     
       
       
-
         // /silverjack/img/clubs/1.png
        
-   echo "<img src='/silverjack/img/$temptype/$findvalue.png' title='".ucfirst("card")."'/>";
+   echo "<img src='img/$temptype/$findvalue.png' title='".ucfirst("card")."'/>";
       
          $counter=$counter+1;
         
@@ -167,8 +161,6 @@
     // echo "definitely<br>";
     
     }
-
-
     function displayWinners($player1, $player2, $player3, $player4){
         $close = array();
         
