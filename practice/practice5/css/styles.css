@@ -1,0 +1,25 @@
+body
+{
+    background-color:white;
+    color:black;
+}
+
+header, main, nav, footer, form
+{
+    text-align: center;
+}
+
+#hands
+{
+    width: 900px;
+    border: 2px white;
+    background-color: red;
+    padding: 25px;
+    margin: 1px auto;
+}
+
+#elapsedTime {
+    text-align: center;
+    margin: 0px auto;
+    background-color: grey;
+}
