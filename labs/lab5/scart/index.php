@@ -88,7 +88,7 @@
     
   
  <figure>
-                <img src="/img/bv.png" alt="Buddy Badge" />
+                <img src="img/bv.png" alt="Buddy Badge" />
                 
             </figure>
  
