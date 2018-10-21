@@ -1,53 +1,39 @@
 <?php
-
-    include 'functions.php';
-    
     session_start();
     
     
-    if(!isset($_SESSION['cart']))
-    {
-        $_SESSION['cart']= array();
+    if(!isset($_SESSION['cart'])) {
+        $_SESSION['cart'] = array();
     }
     
-    
-    if(isset($_GET['query']))
-    {
-        include 'wmapi.php';
-        $items = getProducts($_GET['query']);
-    }
-    
-    
-    if(isset($_POST['itemName']))
-    {
-        $newItem=array();
-        $newItem['name']= $_POST=['itemName'];
-        $newItem['price']= $_POST=['itemPrice'];
-        $newItem['img']= $_POST=['itemImg'];
-        $newItem['id']= $_POST=['itemId'];
+    if(isset($_POST['itemName'])) {
+        //Storing the POST values into an array for later use
+        $newItem = array();
+        $newItem['name'] = $_POST['itemName'];
+        $newItem['price'] = $_POST['itemPrice'];
+        $newItem['image'] = $_POST['itemImage'];
+        $newItem['id'] = $_POST['itemId'];
         
-        
-        foreach($_SESSION['cart'] as &$item)
-        {
-            if ($newItem['id']==$item['id'])
-            {
-                $item['quantity'] +=1;
+        //Checking to see if this is already in our cart
+        //We use &$item to pass by reference
+        foreach($_SESSION['cart'] as &$item) {
+            if ($newItem['id'] == $item['id']) {
+                $item['quantity'] += 1;
                 $found = true;
             }
         }
         
-        if($found !=true)
-        {
-            $newItem['quantity']=1;
+        if ($found != true) {
+            $newItem['quantity'] = 1;
             array_push($_SESSION['cart'], $newItem);
         }
-        
-        
-        
     }
-    
-    
-?>    
+    include 'functions.php';
+    if (isset($_GET['query'])) {
+        include 'wmapi.php';
+        $items = getProducts($_GET['query']);
+    }
+?>
 
 <!DOCTYPE html>
 <html>

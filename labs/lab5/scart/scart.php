@@ -1,39 +1,28 @@
 <?php
-
-    include 'functions.php';
     session_start();
+    include 'functions.php';
     
-
-    
-    
-    if(isset($_POST['removeId']))
-    {
-        
-        foreach($_SESSION['cart'] as $itemKey => $item)
-        {
-            if($item['id']==$_POST['removeId'])
-            {
+    //Unset an item if it has the same ID as the item we want to remove
+    if(isset($_POST['removeId'])) {
+        //The '=>' syntax makes $itemKey equal to the current variable's key
+        //If we just used $item, we'd only affect the copy
+        foreach($_SESSION['cart'] as $itemKey => $item) {
+            if ($item['id'] == $_POST['removeId']) {
                 unset($_SESSION['cart'][$itemKey]);
             }
         }
-        
     }
     
-    
-    if(isset($_POST['itemId']))
-    {
-        
-        foreach($_SESSION['cart'] as &$item)
-        {
-            if($item['id']==$_POST['itemId'])
-            {
-                $item['quantity']=$_POST['update'];
+    //Change the quantity of an item
+    if(isset($_POST['updateId'])) {
+        //We need to pass by reference here
+        foreach($_SESSION['cart'] as &$item) {
+            if ($item['id'] == $_POST['updateId']) {
+                $item['quantity'] = $_POST['update'];
             }
         }
-        
     }
-    
-    ?>
+?>
     
     
     
