@@ -88,7 +88,7 @@
     
   
  <figure>
-                <img src="cst336/labs/lab5/img/bv.png" alt="Buddy Badge" />
+                <img src="/img/bv.png" alt="Buddy Badge" />
                 
             </figure>
  
