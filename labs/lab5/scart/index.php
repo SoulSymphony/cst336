@@ -83,5 +83,19 @@
         </div>
     </div>
     </body>
+    
+    
+    
+  
+ <figure>
+                <img src="/cst336/labs/lab5/bv.png" alt="Buddy Badge" />
+                
+            </figure>
+ 
+ 
+
+    
+    
+    
 </html>
     
