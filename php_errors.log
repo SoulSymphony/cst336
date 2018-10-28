@@ -4,3 +4,19 @@
 [17-Sep-2018 19:19:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/practice/rps.php on line 16
 [17-Sep-2018 19:19:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/practice/rps.php on line 106
 [17-Sep-2018 19:20:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/practice/rps.php on line 95
+[24-Oct-2018 18:58:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/midterm/midterm_practice1.php on line 118
+[24-Oct-2018 19:01:57 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/midterm/midterm_practice1.php on line 116
+[24-Oct-2018 19:30:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/midterm/midterm_practice1.php on line 160
+[24-Oct-2018 21:25:24 UTC] PHP Warning:  include(functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php on line 5
+[24-Oct-2018 21:25:24 UTC] PHP Stack trace:
+[24-Oct-2018 21:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php:0
+[24-Oct-2018 21:25:24 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php on line 5
+[24-Oct-2018 21:25:24 UTC] PHP Stack trace:
+[24-Oct-2018 21:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php:0
+[24-Oct-2018 22:00:44 UTC] PHP Parse error:  syntax error, unexpected 'at' (T_STRING) in /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php on line 176
+[24-Oct-2018 22:01:43 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php on line 165
+[24-Oct-2018 22:01:43 UTC] PHP Stack trace:
+[24-Oct-2018 22:01:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php:0
+[24-Oct-2018 22:02:15 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php on line 165
+[24-Oct-2018 22:02:15 UTC] PHP Stack trace:
+[24-Oct-2018 22:02:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midtermR/midterm_program1.php:0
