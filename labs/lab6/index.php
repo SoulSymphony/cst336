@@ -10,10 +10,7 @@ function displayCategories() {
     $stmt = $dbConn->prepare($sql);
     $stmt->execute();
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    //print_r($records);
-    //echo "<hr>";
-    //echo $records[2] . "<br>";
-    //echo $records[1]['catDescription'] . "<br>";
+    //well update!!!
     
     foreach ($records as $record) {
         echo "<option value='".$record['catId']."'>" . $record['catName'] . "</option>";
@@ -119,7 +116,7 @@ function filterProducts() {
         
         <?= filterProducts() ?>
         
-    
+   
 
 
     </body>
