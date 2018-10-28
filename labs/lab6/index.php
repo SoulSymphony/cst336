@@ -1,8 +1,6 @@
 <?php
-
 include 'dbConnection.php';
 $dbConn = getDatabaseConnection("ottermart");
-
 function displayCategories() { 
     global $dbConn;
     
@@ -16,7 +14,6 @@ function displayCategories() {
         echo "<option value='".$record['catId']."'>" . $record['catName'] . "</option>";
     }
 }
-
 function filterProducts() {
     global $dbConn;
     
@@ -55,7 +52,6 @@ function filterProducts() {
         
         
     }
-
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($namedParameters);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);  
@@ -70,10 +66,7 @@ function filterProducts() {
         echo $record['productDescription'] . " $" .  $record['price'] .   "<br>";   
         
     }
-
-
 }
-
 ?>
 
 <!DOCTYPE html>

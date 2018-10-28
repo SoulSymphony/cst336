@@ -1,8 +1,6 @@
 <?php
-
 include 'dbConnection.php';
 $dbConn = getDatabaseConnection("ottermart");
-
 function displayProductInfo(){
     global $dbConn;
     
@@ -38,8 +36,6 @@ function displayProductInfo(){
     //print_r($records);
     
 }
-
-
 ?>
 
 
