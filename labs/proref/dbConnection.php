@@ -1,5 +1,5 @@
 <?php
-function startConnection($dbName) {
+function getDatabaseConnection($dbName) {
 $host = "localhost";
 $dbname = $dbName;
 $username = "root";

@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+}
+
+a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.error{
+    color:red;
+    
+}

@@ -26,8 +26,8 @@
 <select name="Color[]" multiple> // Initializing Name With An Array
 <option value="goku.png">goku</option>
 <option value="veg.jpg">vegeta</option>
-<input type="radio" name="radio" value="goku.png">Normal
-<input type="radio" name="radio" value="gokus.png">Super
+<input type="radio" name="radiooooo" value="goku.png">Normal
+<input type="radio" name="radiooooo" value="gokus.png">Super
 </select>
 <input type="submit" name="submit" value="Char" />
 </form>

@@ -1,6 +1,6 @@
 <?php
-include '../../inc/dbConnection.php';
-$dbConn = startConnection("ottermart");
+include 'dbConnection.php';
+$dbConn = getDatabaseConnection("project");
 function displayCategories() { 
     global $dbConn;
     
@@ -42,20 +42,30 @@ function filterProducts() {
     
     if (isset($_GET['orderBy'])) {
         
-        if ($_GET['orderBy'] == "productPrice") {
+        if ($_GET['orderBy'] == "A-Z") {
             
-            $sql .= " ORDER BY price";
-        } else {
-            
-              $sql .= " ORDER BY productName";
+        $sql .= " ORDER BY productName";
+        } 
+        
+        else
+        {
+        // $sql .= "ORDER BY productName DESC";
+       $sql= "SELECT * FROM om_product ORDER BY productName DESC";
+        //if i need to do
+        
         }
         
         
     }
-    $stmt = $dbConn->prepare($sql);
+//   $dbConn = $GLOBALS['dbConn'];
+//     if($isAtoZ){
+//       $order = "ASC";
+//     } else {
+//       $order = "DESC";
+//     }
+   $stmt = $dbConn->prepare($sql);
     $stmt->execute($namedParameters);
-    $records = $stmt->fetchAll(PDO::FETCH_ASSOC);  
-    //print_r($records);
+    $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
     
     foreach ($records as $record) {
@@ -99,8 +109,8 @@ function filterProducts() {
              To: <input type="text" name="priceTo"  />
             <br>
             Order By:
-            Price <input type="radio" name="orderBy" value="productPrice">
-            Name <input type="radio" name="orderBy" value="productName">
+            A-Z <input type="radio" name="orderBy" value="A-Z">
+            Z-A <input type="radio" name="orderBy" value="Z-A">
             <br>
             <input type="submit" name="submit" value="Search!"/>
         </form>
