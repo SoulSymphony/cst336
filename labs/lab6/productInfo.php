@@ -1,5 +1,5 @@
 <?php
-include '../../inc/dbConnection.php';
+include 'dbConnection.php';
 $dbConn = startConnection("ottermart");
 function displayProductInfo(){
     global $dbConn;
