@@ -30,7 +30,7 @@
                 echo "<input type='hidden' name='itemId' value='$itemId'>";
                 
                 //Check to see if the item we added is the most recent POST itemId
-                //and change button accordingly this is adding things to cart
+                //and change button accordingly
                 if ($_POST['itemId'] == $itemId) {
                     echo "<td> <button class='btn btn-success'> Added </button> </td>";
                 } else {
@@ -65,7 +65,7 @@
                 echo "<td> <h4>$itemName</h4> </td>";
                 echo "<td> <h4>$$itemPrice</h4> </td>";
                 
-                //Form for updating quantity this is adding things
+                //Form for updating quantity
                 echo "<form method='POST'>";
                 echo "<input type='hidden' name='updateId' value='$itemId'>";
                 echo "<td> <input type='text' name='update' class='form-control' placeholder='$itemQuant'>";

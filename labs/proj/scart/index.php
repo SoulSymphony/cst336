@@ -1,34 +1,17 @@
-
-
-
 <?php
-
-include 'dbConnection.php';
+    
+    
+    include 'dbConnection.php';
+    include 'functions.php';
 $dbConn = getDatabaseConnection("project");
 
-// function displayCategories() { 
-//     global $dbConn;
-    
-//     $sql = "SELECT * FROM proj_movies ORDER BY genName";
-//     $stmt = $dbConn->prepare($sql);
-//     $stmt->execute();
-//     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-//     //well update!!!
-    
-//     foreach ($records as $record) {
-//         echo "<option value='".$record['catId']."'>" . $record['catName'] . "</option>";
-//     }
-// }
-
 session_start();
-
-
-if(!isset($_SESSION['cart'])) {
+    
+    if(!isset($_SESSION['cart'])) {
         $_SESSION['cart'] = array();
     }
     
-    
-   if(isset($_POST['itemName'])) {
+    if(isset($_POST['itemName'])) {
         //Storing the POST values into an array for later use
         $newItem = array();
         $newItem['name'] = $_POST['itemName'];
@@ -50,11 +33,9 @@ if(!isset($_SESSION['cart'])) {
             array_push($_SESSION['cart'], $newItem);
         }
     }
-
-
-
-
-function displayGenres() { 
+    
+    
+    function displayGenres() { 
     global $dbConn;
     
     $sql = "SELECT * FROM proj_genres ORDER by genName";
@@ -71,8 +52,11 @@ function displayGenres() {
         echo "<option value='".$record['genreId']."'>" . $record['genName'] . "</option>";
     }
 }
-
-function filterProducts() {
+    
+    
+    
+    
+    function filterProducts() {
     global $dbConn;
     $movie = $_GET['movieName'];
     
@@ -165,28 +149,56 @@ function filterProducts() {
     }
     
 }
-
+    
+    
+    
+    
+    
+   
 ?>
-
-
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Lab 6: Ottermart Product Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <style>
-            @import url("css/styles.css");
-        </style>
-        
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title>Products Page</title>
     </head>
     <body>
-        
-        <h1> Ottermart </h1>
-        <h2> Product Search </h2>
-        
-        <form>
+    <div class='container'>
+        <div class='text-center'>
+            
+            <!-- Bootstrap Navagation Bar -->
+            <nav class='navbar navbar-default - navbar-fixed-top'>
+                <div class='container-fluid'>
+                    <div class='navbar-header'>
+                        <a class='navbar-brand' href='#'>Shopping Land</a>
+                    </div>
+                    <ul class='nav navbar-nav'>
+                        <li><a href='index.php'>Home</a></li>
+                        <li><a href='scart.php'>
+                        <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
+                        </span> Cart: <?php displayCartCount(); ?> </a></li>
+                    </ul>
+                </div>
+            </nav>
+            <br /> <br /> <br />
+            
+            <!-- Search Form -->
+            <form enctype="text/plain">
+                <div class="form-group">
+                    <label for="pName">Product Name</label>
+                    <input type="text" class="form-control" name="query" id="pName" placeholder="Name">
+                </div>
+                <input type="submit" value="Submit" class="btn btn-default">
+                <br /><br />
+            </form>
+            
+            <form>
             
             Product: <input type="text" name="productName" placeholder="Product keyword" /> <br />
             
@@ -207,12 +219,32 @@ function filterProducts() {
         </form>
         <br>
         <hr>
-        
-        <?= filterProducts() ?>
-        <?= displayCartCount() ?>
+            
+            
+            
+            
+            
+            <!-- Display Search Results -->
+                  <?php filterProducts(); ?>   
+                 <?php displayCart(); ?>
+                       
+                        
+        </div>
+    </div>
+    </body>
+    
+    
     
   
+ <figure>
+                <img src="img/bv.png" alt="Buddy Badge" />
+                
+            </figure>
+ 
+ 
 
-
-    </body>
+    
+    
+    
 </html>
+    
