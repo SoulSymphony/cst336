@@ -441,3 +441,4 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[11-Nov-2018 04:30:16 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 27

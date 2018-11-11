@@ -22,13 +22,20 @@
     <head>
         <title> Admin Login </title>
         
-        <script>
+        <?php
+        session_start();
+        function wrongI(){
+            if(isset($_SESSION['loginError']))
+            {
+   echo 'Wrong Username or password';
+   unset($_SESSION['loginError']);
+   
+   
+}
+          
+        } 
             
-            function loginError() {
-                return alert("Error: Incorrect username or password");
-            }
-            
-        </script>
+        ?>
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
     </head>
@@ -44,12 +51,22 @@
                 Username: <input type="text" name = "username"/> <br /> <br />
                 Password: <input type="password" name="password"/> <br /> <br />
                 <input type="submit" name="submitBtn" value = "Login"/> <br />
+                
             </form>
             
-                    
+            <figure>
+             <?php wrongI(); ?>
+            <img src="bv.png" alt="" />
+            </figure>
+                     
         </div>
         
         <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        
+       
+        
+        
+         
 
     </body>
 </html>

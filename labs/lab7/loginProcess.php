@@ -30,11 +30,14 @@ if (empty($record)) {
 //   $message = "wrong answer";
 // echo "<script type='text/javascript'>alert('$message');</script>";
         
-echo '<script type="text/javascript">'; 
-echo 'window.location.href = "index.php";';
+// echo '<script type="text/javascript">'; 
+// echo 'window.location.href = "index.php";';
 
-echo 'alert("Wrong Username or Password");'; 
-echo '</script>';
+// echo 'alert("Wrong Username or Password");'; 
+// echo '</script>';
+
+ $_SESSION['loginError'] = true;
+header('Location: index.php');
      
 } else {
    
