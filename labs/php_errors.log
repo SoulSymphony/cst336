@@ -353,3 +353,91 @@ Stack trace:
 [05-Nov-2018 20:17:27 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/labs/tproject/index.php on line 212
 [05-Nov-2018 20:17:27 UTC] PHP Stack trace:
 [05-Nov-2018 20:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/tproject/index.php:0
+[09-Nov-2018 19:46:45 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 5
+[09-Nov-2018 19:46:45 UTC] PHP Stack trace:
+[09-Nov-2018 19:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[09-Nov-2018 19:48:18 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 5
+[09-Nov-2018 19:48:18 UTC] PHP Stack trace:
+[09-Nov-2018 19:48:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[09-Nov-2018 20:05:43 UTC] PHP Fatal error:  Call to undefined function startConnection() in /home/ubuntu/workspace/cst336/labs/lab7/admin.php on line 7
+[09-Nov-2018 20:05:43 UTC] PHP Stack trace:
+[09-Nov-2018 20:05:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/admin.php:0
+[11-Nov-2018 02:34:33 UTC] PHP Fatal error:  Call to undefined function wI() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 30
+[11-Nov-2018 02:34:33 UTC] PHP Stack trace:
+[11-Nov-2018 02:34:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:34:35 UTC] PHP Fatal error:  Call to undefined function wI() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 30
+[11-Nov-2018 02:34:35 UTC] PHP Stack trace:
+[11-Nov-2018 02:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:35:03 UTC] PHP Fatal error:  Call to undefined function wI() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 29
+[11-Nov-2018 02:35:03 UTC] PHP Stack trace:
+[11-Nov-2018 02:35:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:36:04 UTC] PHP Fatal error:  Call to undefined function wI() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 30
+[11-Nov-2018 02:36:04 UTC] PHP Stack trace:
+[11-Nov-2018 02:36:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:36:46 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 28
+[11-Nov-2018 02:36:46 UTC] PHP Stack trace:
+[11-Nov-2018 02:36:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:36:46 UTC] PHP   2. wI() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:30
+[11-Nov-2018 02:41:15 UTC] PHP Warning:  Missing argument 1 for wI(), called in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 58 and defined in /home/ubuntu/workspace/cst336/labs/lab7/index.php on line 27
+[11-Nov-2018 02:41:15 UTC] PHP Stack trace:
+[11-Nov-2018 02:41:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/index.php:0
+[11-Nov-2018 02:41:15 UTC] PHP   2. wI() /home/ubuntu/workspace/cst336/labs/lab7/index.php:58
+[11-Nov-2018 02:54:59 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 30
+[11-Nov-2018 02:54:59 UTC] PHP Stack trace:
+[11-Nov-2018 02:54:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:56:19 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 30
+[11-Nov-2018 02:56:19 UTC] PHP Stack trace:
+[11-Nov-2018 02:56:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 02:56:23 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php on line 30
+[11-Nov-2018 02:56:23 UTC] PHP Stack trace:
+[11-Nov-2018 02:56:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab7/loginProcess.php:0
+[11-Nov-2018 03:23:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[11-Nov-2018 03:25:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[11-Nov-2018 03:26:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[11-Nov-2018 03:39:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[11-Nov-2018 03:40:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(26): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 26
+[11-Nov-2018 03:50:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[11-Nov-2018 03:51:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[11-Nov-2018 03:53:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[11-Nov-2018 03:54:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
+[11-Nov-2018 03:54:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php:35
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php(35): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab7/updateProduct.php on line 35
