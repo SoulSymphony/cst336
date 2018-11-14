@@ -25,7 +25,7 @@
                     window.alert("Dog went more to the rights!");
                 }
                 
-                
+                 
                 
                 
                 
