@@ -15,6 +15,18 @@
                 document.getElementById('dog').style.left= xDog + 'px';
                 document.getElementById('dog').style.top= yDog + 'px';
                 
+                if(xCat>xDog)
+                {
+                    window.alert("Cat went more to the right!");
+                }
+                
+                else
+                {
+                    window.alert("Dog went more to the right!");
+                }
+                
+                
+                
                 
                 
                 // alert('xCat= '+xCat+', yCat= '+yCat);
