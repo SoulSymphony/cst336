@@ -17,12 +17,12 @@
                 
                 if(xCat>xDog)
                 {
-                    window.alert("Cat went more to the right!");
+                    window.alert("Cat went more to the rights!");
                 }
                 
                 else
                 {
-                    window.alert("Dog went more to the right!");
+                    window.alert("Dog went more to the rights!");
                 }
                 
                 
