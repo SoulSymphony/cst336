@@ -291,3 +291,15 @@
 [17-Oct-2018 18:24:31 UTC] PHP Stack trace:
 [17-Oct-2018 18:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
 [17-Oct-2018 18:29:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 209
+[14-Nov-2018 16:28:37 UTC] PHP Fatal error:  Cannot redeclare ballCup() (previously declared in /home/ubuntu/workspace/cst336/hw/hw4/inc/functions.php:3) in /home/ubuntu/workspace/cst336/hw/hw4/inc/functions.php on line 72
+[14-Nov-2018 16:28:37 UTC] PHP Stack trace:
+[14-Nov-2018 16:28:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/h2p1.php:0
+[14-Nov-2018 16:29:31 UTC] PHP Fatal error:  Cannot redeclare ballCup() (previously declared in /home/ubuntu/workspace/cst336/hw/hw4/inc/functions.php:3) in /home/ubuntu/workspace/cst336/hw/hw4/inc/functions.php on line 72
+[14-Nov-2018 16:29:31 UTC] PHP Stack trace:
+[14-Nov-2018 16:29:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/h2p1.php:0
+[14-Nov-2018 16:30:48 UTC] PHP Fatal error:  Cannot redeclare displayCups() (previously declared in /home/ubuntu/workspace/cst336/hw/hw4/inc/functions.php:19) in /home/ubuntu/workspace/cst336/hw/hw4/inc/functions.php on line 134
+[14-Nov-2018 16:30:48 UTC] PHP Stack trace:
+[14-Nov-2018 16:30:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/h2p1.php:0
+[14-Nov-2018 16:32:18 UTC] PHP Fatal error:  Call to undefined function displayCups() in /home/ubuntu/workspace/cst336/hw/hw4/h2p1.php on line 117
+[14-Nov-2018 16:32:18 UTC] PHP Stack trace:
+[14-Nov-2018 16:32:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw4/h2p1.php:0

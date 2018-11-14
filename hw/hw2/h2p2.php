@@ -70,6 +70,10 @@ function displayCups($inn, $choice)
        <link href="h2styles.css" rel="stylesheet" type="text/css" />
         <title> Michael Velasquez: HW 2</title>
         
+         <?php
+        include 'inc/functions.php';
+    ?>
+        
     </head>
     <body>
         
