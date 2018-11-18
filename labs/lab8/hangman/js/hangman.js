@@ -13,7 +13,7 @@
                 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
 
 
-var hints=0;
+var hints=0; 
     
     
     
