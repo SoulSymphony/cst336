@@ -15,6 +15,7 @@
             var password = $("#password").val();
             var passwordAgain = $("#passwordAgain").val();
 
+
             if (username.length < 5) {
 
                 $("#usernameError").html("Error: Username must be at least 5 characters long");
@@ -50,8 +51,7 @@
                         //alert(data.city);
                         
                         if(data) {
-                            // $("#usernameError").html("username is available");
-                            // $("#usernameError").css("color", "green");
+                          
                         $("#city").html(data.city);
                         $("#latitude").html(data.latitude);
                         $("#longitude").html(data.longitude);
@@ -94,6 +94,14 @@
                     dataType: "json",
                     data: { "username": username },
                     success: function(data, status) {
+                     
+                     
+            if(data=="admin")
+            {
+                $("#usernameError").html("username is not available");
+                $("#usernameError").css("color", "red");
+            }
+                     
                      
                         if(!data) {
                             $("#usernameError").html("username is available");
@@ -175,6 +183,13 @@
             <input type="submit" value="Sign up!">
         </fieldset>
     </form>
+    
+    
+      <figure>
+             
+            <img src="bv.png" alt="" />
+     </figure>
+    
 
 </body>
 
