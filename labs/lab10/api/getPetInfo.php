@@ -1,6 +1,6 @@
 <?php
 
-include 'dbConnection.php';
+include '../../../inc/dbConnection.php';
 $dbConn = startConnection("pets");
 
 $sql ="SELECT * FROM pets WHERE id = ".$_GET['petid'];

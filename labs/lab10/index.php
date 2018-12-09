@@ -31,9 +31,9 @@
         ?>
         </body>
         
-         <figure>
+     <!--    <figure>-->
              
-            <img src="bv.png" alt="" />
-     </figure>
+     <!--       <img src="bv.png" alt="" />-->
+     <!--</figure>-->
 
 </html>
