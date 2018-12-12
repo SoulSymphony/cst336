@@ -59,7 +59,7 @@ if (isset($_GET['addProduct'])) { //checks whether the form was submitted
            Attack: <input type="text" name="attack"><br>
            Evolution: <input type="text" name="evolution"><br>
            Weight: <input type="text" name="weight"><br>
-           Year: <input type="text" name="Year"><br>
+           Year: <input type="text" name="year"><br>
            Category: 
            <select name="chooseId">
               <option value="">Select One</option>
