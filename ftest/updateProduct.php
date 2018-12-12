@@ -13,6 +13,9 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
     $attack =  $_GET['attack'];
     $type =  $_GET['type'];
     $image = $_GET['image'];
+    $legendary = $_GET['legendary'];
+    $weight = $_GET['weight'];
+    $evolution = $_GET['evolution'];
     
     
     

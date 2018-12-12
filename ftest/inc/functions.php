@@ -30,7 +30,7 @@ function filterMovies() {
     
     if(isset($_GET['searchForm'])) {
         
-        echo "<h3>Movies Found: </h3>";
+        echo "<h3>Pokemon Found: </h3>";
         
         $namedParameters = array();
         //$product = $_GET['productName'];

@@ -40,11 +40,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
-        <title>Bootleg</title>
+        <title>Mini Pokedex</title>
         <!--<link rel="stylesheet" href="css/styles.css" type="text/css" />-->
         <style>
             h1, form{
@@ -56,6 +56,20 @@
                 margin-top: 250px;
             }
         </style>
+        
+        
+<script>
+$(document).ready(function(){
+    
+    $("button").click(function(){
+        alert("1 Fire 2 Water 3 Grass 4 Psychic 5 Dark");
+    });
+});
+</script>
+        
+        
+        
+        
     </head>
     <body>
         
@@ -63,7 +77,7 @@
         <nav class='navbar navbar-default - navbar-fixed-top'>
             <div class='container-fluid'>
                 <div class='navbar-header'>
-                    <a class='navbar-brand' href='#'>Bootleg</a>
+                    <a class='navbar-brand' href='#'>Mini Pokedex</a>
                 </div>
                   <ul class='nav navbar-nav'>
                     <li><a href='index.php'>Home</a></li>
@@ -74,7 +88,7 @@
         </nav>
         <br /> <br /> <br />
         
-        <h1> Bootleg </h1>
+        <h1> Mini Pokedex </h1>
         
         <form>
             
@@ -98,6 +112,9 @@
             <br>
             ASC <input type="radio" name="orderBy" value="ac">
             DESC <input type="radio" name="orderBy" value="dc">
+            
+
+<button>Type info</button>
             <br><br>
             <input type="submit" name="searchForm" value="Search"/>
         </form>
