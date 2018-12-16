@@ -1,6 +1,7 @@
-<?php
 
-// function getDatabaseConnection($dbName) 
+
+
+<?php
 function startConnection($dbName) {
 $host = "localhost";
 $dbname = $dbName;
@@ -14,6 +15,13 @@ if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
    $username = $url["user"];
    $password = $url["pass"];
 }
+
+
+  $host ="us-cdbr-iron-east-05.cleardb.net";
+   $dbname = "heroku_7c4fa413429fa60";
+   $username = "baa2ea58b03b5b";
+   $password = '9b51e14f';
+
 $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 return $dbConn;
